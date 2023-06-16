@@ -39,7 +39,7 @@ app.use(errorController.logErrors);
 
 
 
-mongoose.connect('mongodb+srv://dadady238:Arya2013Leonard2016@cluster0.i0eu4k3.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://dan:Bd123@cluster0.pyhhet3.mongodb.net/?retryWrites=true&w=majority')
   .then(() => {
     console.log('La connexion à la base de données est établie')
     app.listen(3000, () => {
